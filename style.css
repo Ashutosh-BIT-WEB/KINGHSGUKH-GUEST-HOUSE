@@ -1,0 +1,133 @@
+.navbar {
+    background: linear-gradient(90deg, #4e54c8, #8f94fb); /* Gradient background */
+}
+.navbar-brand img {
+    border-radius: 50%; /* Make logo circular */
+    margin-right: 10px;
+}
+.navbar-brand {
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    color: #fff;
+}
+.nav-link {
+    color: #f8f9fa !important; /* Light color for links */
+    font-weight: 500; 
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Highlight on hover */
+    color: #fff !important;
+}
+.nav-link.active {
+    background-color: rgba(255, 255, 255, 0.3); /* Different style for active links */
+    color: #fff !important;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255,255,255,0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+#about {
+    background: linear-gradient(135deg, #f3f4f7, #ffffff); /* Subtle gradient background */
+}
+#about h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4e54c8; /* Matching brand color */
+    margin-bottom: 20px;
+}
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555; /* Soft gray for readability */
+    margin-bottom: 15px;
+}
+#about p::before {
+    content: "“"; /* Add decorative quote */
+    font-size: 2rem;
+    color: #8f94fb;
+    vertical-align: top;
+    margin-right: 5px;
+}
+#about .img-fluid {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for the image */
+    transition: transform 0.3s ease;
+}
+#about .img-fluid:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+
+.gallery div{
+    overflow: hidden;
+}
+.gallery div img{
+    transition: all 0.4s;
+}
+.gallery div img:hover{
+    transform: scale(1.1);
+}
+
+
+#contact img{
+    width: 100%;
+}
+
+
+
+ /* Footer Styling */
+ footer {
+    background: #4e54c8; /* Matching gradient */
+    color: #f8f9fa;
+    padding: 40px 0;
+}
+footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+footer a:hover {
+    color: #ffcc00;
+}
+footer .footer-logo img {
+    height: 60px;
+    margin-bottom: 15px;
+}
+footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: background 0.3s ease;
+}
+footer .social-icons a:hover {
+    background: #ffcc00;
+    color: #fff;
+}
+footer .copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+footer .social-icons img
+{
+
+}
